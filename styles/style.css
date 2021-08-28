@@ -10,6 +10,9 @@ body {
   background-color: #674baf;
   font-family: 'Poppins', sans-serif;
   color: white;
+  background-image: url(../images/bg-desktop.svg);
+  background-size: cover;
+  font-size: 15px;
 }
 
 .wrapper {
@@ -82,6 +85,10 @@ body {
   color: white;
 }
 
+.container footer {
+  text-align: center;
+}
+
 .container footer .social {
   margin: 3rem .25rem 0;
   padding: .6rem;
@@ -101,23 +108,26 @@ body {
   padding: .6rem .8rem;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 900px) {
   .container {
     padding: 4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
   .container main {
+    font-size: 18px;
     flex-direction: row;
     justify-content: space-between;
   }
   .container main .banner {
-    width: 50%;
+    width: 53%;
   }
   .container main .content {
     align-items: flex-start;
-    width: 40%;
+    width: 43%;
   }
   .container main .content h2 {
-    font-size: 1.825rem;
+    font-size: 2.3rem;
     text-align: left;
   }
   .container main .content p {
